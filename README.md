@@ -16,7 +16,9 @@ npm run start:dev
 * IMPORTANTE : COPIAR O ID DO USUÁRIO QUE FOI GERADO E RETORNADO PRA USO FUTURO EM OUTROS ENDPOINTS;
 * Muito importante a senha ter caracteres minusculos, maiusculos e especial, isso é tratado ao enviar também.
 @POST
+```
 http://localhost:3000/api/v1/users
+```
 * Ex JSON:
 {
   "email": "teste@hotmail.com",
