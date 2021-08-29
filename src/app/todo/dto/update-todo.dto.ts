@@ -1,7 +1,10 @@
-import { IsIn, IsNotEmpty } from "class-validator";
+import { IsIn, isNotEmpty, IsNotEmpty } from "class-validator";
 import { CreateTodoDto } from "./create-todo.dto";
 
 export class UpdateTodoDto{
+  @IsNotEmpty()
+  prazo: string;
+
   @IsNotEmpty()
   task: string;
 

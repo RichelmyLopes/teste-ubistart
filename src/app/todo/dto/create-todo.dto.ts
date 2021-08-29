@@ -1,6 +1,8 @@
 import { IsIn, isNotEmpty, IsNotEmpty, IsUUID } from "class-validator";
 
 export class CreateTodoDto {
+  @IsNotEmpty()
+  prazo : string;
 
   @IsNotEmpty()
   @IsUUID()
