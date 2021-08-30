@@ -3,6 +3,10 @@
 Teste-Ubistart
 ### Executing program
 * Renomear .env-example para .env
+* Rodar comando do npm
+```
+npm install
+```
 * Rodar o Docker
 ```
 docker-compose up
